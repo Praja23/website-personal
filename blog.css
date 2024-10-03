@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  background-image: url("link-ke-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #88888b;
+  color: #000000;
+  padding: 7px;
+  text-align: center;
+  position: relative; /* Tambahkan ini untuk memungkinkan posisi absolut logo */
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.logo-photo {
+  max-width: 150px; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+  border-radius: 50%;
+  margin-left: -50px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px; /* Sesuaikan jarak antara logo dan teks */
+}
+
+.logo-text .war {
+  margin: 0;
+  font-size: 20px;
+  color: #000000; /* Warna hitam untuk "WAR" */
+}
+
+.logo-text .min {
+  margin: 0;
+  font-size: 15px;
+  color: #ffffff; /* Warna putih untuk "MIN" */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 254, 254);
+  text-decoration: none;
+  padding: 5px 5px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+}
+
+.home-photo {
+  max-width: 300px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.menu-item {
+  background-color: #88888b;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+.menu-item img {
+  max-width: 70%;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover img {
+  transform: scale(1.1);
+}
+
+.menu-item h3 {
+  margin: 5px;
+  color: #000000; /* Tambahkan ini untuk mengubah warna font menjadi hitam */
+}
+
+.menu-item .harga {
+  font-weight: bold;
+  color: #040a02;
+  margin-top: 10px;
+}
+
+.location-photo {
+  max-width: 20%; /* Sesuaikan ukuran sesuai kebutuhan Anda */
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.location-photo:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  padding: 20px;
+  margin: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 24px; /* Sesuaikan ukuran gambar */
+  height: 24px; /* Sesuaikan ukuran gambar */
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
